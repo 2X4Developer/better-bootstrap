@@ -1,0 +1,15 @@
+:root{
+    --body-bg: #F4F8FB;
+    --font-color: #52565A;
+    --nav-1: #EEF2F5;
+    --nav-2: #EEF2F5;
+    --card-bg: #EEF2F5;
+    --card-border: #D6DBDD;
+    --nav-link: #5D585E;
+    --nav-link-hov: #757575;
+    --nav-border: #E5E8EF;
+    --form-bg: #FFFFFF;
+    --primary-alert: #04AA6D;
+    --danger-alert: #C20000;
+    --primary-clr: black;
+}

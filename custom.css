@@ -1,0 +1,85 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
+.form-control, .form-select{
+    background-color: var(--form-bg)!important;
+    border: 1px solid var(--card-border)!important;
+    color: var(--primary-clr)!important;
+}
+.h1, .h2, .h3, .h4, .h5, .h6, h1, h2, h3, h4, h5, h6, body, .accordion-button, p{
+    color: var(--font-color)!important;
+}
+.nav-1{
+    background-color: var(--nav-1)!important;
+}
+.nav-2{
+    background-color: var(--nav-2)!important;
+    border: 1px solid var(--nav-border);
+    padding:0.5px!important;
+}
+* {
+  font-family: 'Poppins', sans-serif;
+}
+button {
+  font-family: 'Poppins', sans-serif;
+}
+.nav-link{
+    transition: color, transform 0.35s!important;
+    color: var(--nav-link)!important;
+    border-radius: 6px;
+}
+.nav-link:hover{
+    /*transform: scale(1.2)!important;*/
+    color: var(--nav-link-hov)!important;
+    /*box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75) inset;
+    -webkit-box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75) inset;
+    -moz-box-shadow: 0px 0px 42px -11px rgba(0,0,0,0.75) inset;*/
+}
+.card{
+    background-color: var(--card-bg)!important;
+    border: 1px solid var(--card-border)!important;
+}
+.accordion-button, .accordion-item{
+    background: none!important;
+}
+.accordion-item{
+    border: 1px solid var(--card-border)!important;
+}
+.accordion-button:not(.collapsed){
+    background-color: var(--card-bg)!important;
+}
+a{
+    text-decoration: none!important;
+}
+body{
+    background-color: var(--body-bg)!important;
+}
+.dropdown-toggle::after {
+    content: none;
+}
+.navbar-brand{
+    transition-duration: 0.25s;
+}
+.navbar-brand:hover{
+    transform: scale(1.5) rotate(360deg)!important;
+}
+.navbar-brand:active{
+    transform: scale(1) rotate(0deg)!important;
+}
+.footer{
+    background-color: var(--card-bg)!important;
+    border: 1px solid var(--card-border)!important;
+}
+.alert-success{
+    background-color: var(--primary-alert)!important;
+    color: white!important;
+    border: 0!important;
+}
+.alert-danger{
+    background-color: var(--danger-alert)!important;
+    color: white!important;
+    border: 0!important;
+}
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link{
+    color: #1A282A!important;
+    background-color: #3B9FFF!important;
+}
