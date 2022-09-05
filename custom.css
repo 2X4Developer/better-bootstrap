@@ -59,12 +59,12 @@ body{
 .navbar-brand{
     transition-duration: 0.25s;
 }
-.navbar-brand:hover{
+/*.navbar-brand:hover{
     transform: scale(1.5) rotate(360deg)!important;
 }
 .navbar-brand:active{
     transform: scale(1) rotate(0deg)!important;
-}
+}*/
 .footer{
     background-color: var(--card-bg)!important;
     border: 1px solid var(--card-border)!important;
